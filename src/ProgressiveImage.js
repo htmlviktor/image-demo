@@ -33,7 +33,7 @@ class ProgressiveImage extends Component {
         src={currentSrc}
         className="ProgressiveImage"
         style={{
-          opacity: loading ? 0.5 : 1,
+          opacity: loading ? 0.8 : 1,
           transition: "opacity .15s linear"
         }}
         alt={alt}
